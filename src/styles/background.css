@@ -1,0 +1,18 @@
+/* src/styles/background.css */
+body {
+  background: #f4f8fc; /* azul pastel elegante */
+  background-attachment: fixed;
+  position: relative;
+}
+
+/* Pattern Litoral Ilhéus (data URI em base64) */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: .08;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzgwIiBoZWlnaHQ9IjM4MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIE9uZGEgc3VhdmUgLS0+CiAgPHBhdGggZD0iTTAgMTkwIEM2MCAyMzAsIDE0MCAxNTAsIDIwMCAxOTAgQzI2MCAyMzAsIDM0MCAxNTAsIDM4MCAxOTAiIHN0cm9rZT0iIzAwM0M4OCIgc3Ryb2tlLXdpZHRoPSI2IiBmaWxsPSJub25lIi8+CiAgPCEtLSBDb3F1ZWlybyBtaW5pbWFsaXN0YSAtLT4KICA8cGF0aCBkPSJNMjYwIDI1MCB2LTUwIGMwIC0yMCAzMCAtMjAgMzAgMGMgMCAyMCAtMzAgMjAgLTMwIDAiIHN0cm9rZT0iIzAwOEQzQiIgc3Ryb2tlLXdpZHRoPSI0IiBmaWxsPSJub25lIi8+CiAgPHBhdGggZD0iTTI2MCAyNTAgdjUwIiBzdHJva2U9IiMwMDhEM0IiIHN0cm9rZS13aWR0aD0iNiIvPgogIDwhLS0gU29sIGVzdGlsbyBHb3YgLS0+CiAgPGNpcmNsZSBjeD0iMTAwIiBjeT0iMTAwIiByPSIzMiIgc3Ryb2tlPSIjRjJCNDQxIiBzdHJva2Utd2lkdGg9IjgiIGZpbGw9Im5vbmUiLz4KICA8IS0tIEdhaXZvdGEgbWluaW1hbGlzdGEgLS0+CiAgPHBhdGggZD0iTTMxMCA2MCBjMjAgMjAsIDQwIDIwLCA2MCAwIiBzdHJva2U9IiNENTI4MjgiIHN0cm9rZS13aWR0aD0iNSIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=");
+  background-size: 420px;
+  background-repeat: repeat;
+}

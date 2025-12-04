@@ -1,0 +1,36 @@
+{
+  "title": "Obituário",
+  "subtitle": "Atos e serviços funerários",
+  "items": [
+    {
+      "name": "Inumação adulto",
+      "price": 220.13,
+      "info": "Sepultamento de pessoa adulta em cova, jazigo ou mausoléu."
+    },
+    {
+      "name": "Inumação criança (8 a 13 anos)",
+      "price": 278.83,
+      "info": "Sepultamento formal para crianças de 8 a 13 anos."
+    },
+    {
+      "name": "Inumação criança (0 a 7 anos)",
+      "price": 190.78,
+      "info": "Sepultamento formal para crianças até 7 anos."
+    },
+    {
+      "name": "Inumação indigente",
+      "price": 0,
+      "info": "Procedimento isento quando solicitado pelo serviço social."
+    },
+    {
+      "name": "Exumação",
+      "price": 100.00,
+      "info": "Remoção de restos mortais após prazo e solicitação familiar."
+    },
+    {
+      "name": "Transferência restos mortais",
+      "price": 145.75,
+      "info": "Mudança de local de sepultamento mediante autorização."
+    }
+  ]
+}

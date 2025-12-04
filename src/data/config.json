@@ -1,0 +1,64 @@
+{
+  "services": [
+    {
+      "id": "atos-servicos",
+      "title": "Atos e Serviços Diversos",
+      "desc": "Protocolos, certidões e documentos públicos.",
+      "color": "#003C88"
+    },
+    {
+      "id": "meio-ambiente",
+      "title": "Demais Serviços (Meio Ambiente)",
+      "desc": "Solicitações e abertura de processos ambientais.",
+      "color": "#008D3B"
+    },
+    {
+      "id": "obituario",
+      "title": "Obituário",
+      "desc": "Atos funerários, sepultamento e exumação.",
+      "color": "#F2B441"
+    },
+    {
+      "id": "equipamentos",
+      "title": "Equipamento ou Espaço Público",
+      "desc": "Uso de praças, quadras, campos, auditórios e áreas públicas.",
+      "color": "#0A6DD8"
+    },
+    {
+      "id": "limpeza-publica",
+      "title": "Limpeza Pública",
+      "desc": "Serviços de limpeza, manutenção e conservação urbana.",
+      "color": "#005425"
+    },
+    {
+      "id": "coleta-residuos",
+      "title": "Coleta e Transporte de Resíduos Sólidos",
+      "desc": "Coleta pública e transporte oficial de resíduos.",
+      "color": "#003C88"
+    },
+    {
+      "id": "servicos-especiais",
+      "title": "Serviços Especiais",
+      "desc": "Varrição, lavagem de vias e disposição final pública.",
+      "color": "#008D3B"
+    },
+    {
+      "id": "apreensao-bens",
+      "title": "Apreensão de Bens",
+      "desc": "Materiais abandonados ou recolhidos em via pública.",
+      "color": "#F2B441"
+    },
+    {
+      "id": "transito",
+      "title": "Trânsito e Transportes",
+      "desc": "Taxas, serviços e especificações de trânsito municipal.",
+      "color": "#0A6DD8"
+    },
+    {
+      "id": "guarda-liberacao",
+      "title": "Preço pela Guarda / Liberação",
+      "desc": "Taxa pública para liberação de bens ou produtos apreendidos.",
+      "color": "#005425"
+    }
+  ]
+}

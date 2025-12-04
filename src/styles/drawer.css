@@ -1,0 +1,56 @@
+/* ================= DRAWER ================= */
+
+.drawer {
+  position: fixed;
+  top: 0;
+  right: -400px;
+  width: 340px;
+  height: 100vh;
+  background: #ffffff;
+  box-shadow: -4px 0 14px rgba(0,0,0,.2);
+  padding: 18px;
+  transition: .3s ease;
+  z-index: 300;
+}
+
+.drawer--open {
+  right: 0;
+}
+
+.drawer__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.drawer__title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.drawer__close {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.drawer__list {
+  list-style: none;
+  padding: 0;
+  margin-top: 12px;
+}
+
+.drawer__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.drawer__total {
+  margin-top: 30px;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+  font-size: 18px;
+  font-weight: bold;
+}
